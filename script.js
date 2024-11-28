@@ -9,8 +9,7 @@ $(window).on('scroll', function() {
   $(document).ready(function () {
    
   $('.logos-block').owlCarousel({
-    margin:auto,
-    loop:true,
+    
     autoWidth:true,
     nav: false,
     items:6,
@@ -24,10 +23,12 @@ $(window).on('scroll', function() {
             0:{
               autoplay:true,
               margin:40,
+              loop:true,
             },
             991:{
               autoplay:true,
               margin:40,
+              loop:true,
             },
             1200:{
               autoplay:false,
