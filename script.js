@@ -28,7 +28,6 @@ $(window).on('scroll', function() {
               autoplay:true,
               margin:92,
               loop:true,
-              margin:92,
               autoWidth:true,
             },
             1200:{
