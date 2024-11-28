@@ -23,6 +23,7 @@ $(window).on('scroll', function() {
               autoplay:true,
               margin:40,
               loop:true,
+              autoWidth:true,
             },
             991:{
               autoplay:true,
