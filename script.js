@@ -5,4 +5,21 @@ $(window).on('scroll', function() {
       $('.header').removeClass('solid').addClass('transparent');
     }
   });
+
+  $(document).ready(function () {
+   
+  $('.logos-block').owlCarousel({
+    margin:92,
+    loop:true,
+    autoWidth:true,
+    nav: false,
+    autoplay:true,
+    items:8,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    slideTransition: 'linear',
+    autoplaySpeed: 6000,
+    smartSpeed: 6000
+})
+  });
   
