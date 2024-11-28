@@ -31,7 +31,10 @@ $(window).on('scroll', function() {
               autoWidth:true,
             },
             1200:{
-              autoplay:false,
+              autoplay:true,
+              margin:92,
+              loop:true,
+              autoWidth:true,
             }
         }
 })
