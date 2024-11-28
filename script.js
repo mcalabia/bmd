@@ -9,7 +9,7 @@ $(window).on('scroll', function() {
   $(document).ready(function () {
    
   $('.logos-block').owlCarousel({
-    
+    margin:92,
     autoWidth:true,
     nav: false,
     items:6,
