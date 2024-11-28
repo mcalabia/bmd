@@ -9,7 +9,7 @@ $(window).on('scroll', function() {
   $(document).ready(function () {
    
   $('.logos-block').owlCarousel({
-    margin:92,
+    margin:auto,
     loop:true,
     autoWidth:true,
     nav: false,
@@ -23,9 +23,11 @@ $(window).on('scroll', function() {
         responsive:{
             0:{
               autoplay:true,
+              margin:40,
             },
-            767:{
+            991:{
               autoplay:true,
+              margin:40,
             },
             1200:{
               autoplay:false,
