@@ -13,6 +13,7 @@ $(window).on('scroll', function() {
     loop:true,
     autoWidth:true,
     nav: false,
+    autoplay:false,
     items:8,
     autoplayTimeout:5000,
     autoplayHoverPause:false,
@@ -28,7 +29,7 @@ $(window).on('scroll', function() {
               autoplay:true,
             },
             1200:{
-              autoplay:true,
+              autoplay:false,
             }
         }
 })
