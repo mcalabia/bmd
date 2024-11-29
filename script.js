@@ -15,6 +15,7 @@ $(window).on('scroll', function() {
     slideTransition: 'linear',
     autoplaySpeed: 6000,
     smartSpeed: 6000,
+    autoWidth:true,
     responsiveClass:true,
         responsive:{
             0:{
@@ -31,6 +32,7 @@ $(window).on('scroll', function() {
             },
             1200:{
               autoplay:false,
+              autoWidth:true,
             }
         }
 })
@@ -49,7 +51,7 @@ function initAnimations() {
   }
 
   // Hero container animation
-  const hero_container = document.querySelector(".title-1");
+  const hero_container = document.querySelector(".hero-block");
   if(hero_container){
   gsap.fromTo(hero_container, 
       { opacity: 0 }, 
@@ -66,6 +68,14 @@ function initAnimations() {
   );
 }
 
+  // Logo carousel container animation
+  const logo_carousel_container = document.querySelector(".logos-container");
+  if(logo_carousel_container){
+  gsap.fromTo(logo_carousel_container, 
+      { opacity: 0 }, 
+      { opacity: 1, duration: 1, delay: 0.8, ease: "power2.out" }
+  );
+}
 }
 
 function animateElementWithScrollTrigger(element, section, delay) {
