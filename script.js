@@ -115,6 +115,5 @@ animateElementWithScrollTrigger(".featured-blog-stack", ".featured-blog-stack", 
 animateElementWithScrollTrigger(".articles-block", ".articles-block", .3);
 animateElementWithScrollTrigger(".auxilary-block", ".auxilary-block", .3);
 animateElementWithScrollTrigger(".footer-content", ".footer-content", .3);
-animateElementWithScrollTrigger(".footer-bottom-liinks", ".footer-bottom-liinks", .3);
   });
   
