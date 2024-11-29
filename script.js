@@ -101,6 +101,17 @@ if(elementdata){
 
 initAnimations();
 animateElementWithScrollTrigger(".text-3-up-content", ".text-3-up-content", .3);
-
+animateElementWithScrollTrigger(".text-3-up-column", ".text-3-up-column", .3);
+animateElementWithScrollTrigger(".text-page-blocks-content", ".text-page-blocks-content", .3);
+animateElementWithScrollTrigger(".text-page-blocks-cards-first-row", ".text-page-blocks-cards-first-row", .3);
+animateElementWithScrollTrigger(".text-page-blocks-cards-second-row", ".text-page-blocks-cards-second-row", .3);
+animateElementWithScrollTrigger(".stats-grid", ".stats-grid", .3);
+animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-title", .3);
+animateElementWithScrollTrigger(".featured-articles-content", ".featured-articles-content", .3);
+animateElementWithScrollTrigger(".footer-header-cta-block", ".footer-header-cta-block", .3);
+animateElementWithScrollTrigger(".featured-blog-title-description", ".featured-blog-title-description", .3);
+animateElementWithScrollTrigger(".featured-blog-stack", ".featured-blog-stack", .3);
+animateElementWithScrollTrigger(".articles-block", ".articles-block", .3);
+animateElementWithScrollTrigger(".auxilary-block", ".auxilary-block", .3);
   });
   
