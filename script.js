@@ -66,14 +66,6 @@ function initAnimations() {
   );
 }
 
-  // Logo carousel container animation
-  const logo_carousel_container = document.querySelector(".logos-container");
-  if(logo_carousel_container){
-  gsap.fromTo(logo_carousel_container, 
-      { opacity: 0 }, 
-      { opacity: 1, duration: 1, delay: 0.8, ease: "power2.out" }
-  );
-}
 }
 
 function animateElementWithScrollTrigger(element, section, delay) {
