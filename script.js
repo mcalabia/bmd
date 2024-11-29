@@ -16,7 +16,6 @@ $(window).on('scroll', function() {
     autoplaySpeed: 6000,
     smartSpeed: 6000,
     autoWidth:true,
-    margin:92,
     responsiveClass:true,
         responsive:{
             0:{
@@ -34,7 +33,6 @@ $(window).on('scroll', function() {
             1200:{
               autoplay:false,
               autoWidth:true,
-              margin:92,
             }
         }
 })
