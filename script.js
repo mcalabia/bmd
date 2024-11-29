@@ -15,6 +15,9 @@ $(window).on('scroll', function() {
     slideTransition: 'linear',
     autoplaySpeed: 6000,
     smartSpeed: 6000,
+    margin:92,
+    loop:true,
+    autoWidth:true,
     responsiveClass:true,
         responsive:{
             0:{
@@ -28,9 +31,6 @@ $(window).on('scroll', function() {
               margin:92,
               loop:true,
               autoWidth:true,
-            },
-            1200:{
-              autoplay:false,
             }
         }
 })
