@@ -40,3 +40,8 @@
 .testimonial-owl-carousel .owl-dot:hover{
     background: linear-gradient(90deg, #16D0FF 6.52%, #9041FF 96.38%) !important; /* Color of the bar on hover */
 }
+.testimonial-owl-carousel .owl-nav {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+}
