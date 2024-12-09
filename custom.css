@@ -17,3 +17,11 @@
   .owl-carousel .owl-stage-outer{
     overflow: visible;
   }
+
+  .cci-cards .owl-dots, .testimonial-owl-carousel .owl-dots, .fcs-owl-carousel .owl-dots{
+    text-align: center !important;
+    display:flex;
+    flex-direction: row;
+    margin-top: 68px !important;
+    width: calc(100% - 250px) !important;
+}
