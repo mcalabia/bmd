@@ -35,8 +35,8 @@
     transition: background-color 0.3s ease !important;
 }
 .testimonial-owl-carousel .owl-dot.active {
-    background-color: linear-gradient(90deg, #16D0FF 6.52%, #9041FF 96.38%) !important; /* Color of the active bar */
+    background: linear-gradient(90deg, #16D0FF 6.52%, #9041FF 96.38%) !important; /* Color of the active bar */
 }
 .testimonial-owl-carousel .owl-dot:hover{
-    background-color: linear-gradient(90deg, #16D0FF 6.52%, #9041FF 96.38%) !important; /* Color of the bar on hover */
+    background: linear-gradient(90deg, #16D0FF 6.52%, #9041FF 96.38%) !important; /* Color of the bar on hover */
 }
