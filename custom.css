@@ -18,6 +18,14 @@
     overflow: visible;
   }
 
+  .testimonial-owl-carousel .owl-dots{
+    text-align: center !important;
+    display:flex;
+    flex-direction: row;
+    margin-top: 68px !important;
+    width: calc(100% - 351px) !important;
+}
+
 .testimonial-owl-carousel .owl-dot {
     display: inline-block !important;
     width: 100% !important; /* Width of the bar */
