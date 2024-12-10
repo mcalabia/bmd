@@ -129,8 +129,13 @@ animateElementWithScrollTrigger(".text-3-card-3", ".text-3-up-column", .9);
 animateElementWithScrollTrigger(".horizontal", ".text-3-up-column", .6);
 
 animateElementWithScrollTrigger(".text-page-blocks-content", ".text-page-blocks-content", .3);
-animateElementWithScrollTrigger(".text-page-blocks-cards-first-row", ".text-page-blocks-cards-first-row", .3);
-animateElementWithScrollTrigger(".text-page-blocks-cards-second-row", ".text-page-blocks-cards-second-row", .3);
+
+animateElementWithScrollTrigger(".tpb-card-1", ".text-page-blocks-cards-first-row", .3);
+animateElementWithScrollTrigger(".tpb-card-2", ".text-page-blocks-cards-first-row", .6);
+animateElementWithScrollTrigger(".tpb-card-3", ".text-page-blocks-cards-second-row", .3);
+animateElementWithScrollTrigger(".tpb-card-4", ".text-page-blocks-cards-second-row", .6);
+
+
 animateElementWithScrollTrigger(".stats-grid", ".stats-grid", .3);
 animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-title", .3);
 animateElementWithScrollTrigger(".featured-articles-content", ".featured-articles-content", .3);
