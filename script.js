@@ -133,7 +133,7 @@ animateElementWithScrollTrigger(".text-page-blocks-content", ".text-page-blocks-
 animateElementWithScrollTrigger(".tpb-card-1", ".text-page-blocks-cards-first-row", .3);
 animateElementWithScrollTrigger(".tpb-card-2", ".text-page-blocks-cards-first-row", .6);
 animateElementWithScrollTrigger(".tpb-card-3", ".text-page-blocks-cards-first-row", .9);
-animateElementWithScrollTrigger(".tpb-card-4", ".text-page-blocks-cards-first-row", .12);
+animateElementWithScrollTrigger(".tpb-card-4", ".text-page-blocks-cards-first-row", 1.2);
 
 animateElementWithScrollTrigger(".stats-cell-1", ".stats-grid", .3);
 animateElementWithScrollTrigger(".stats-cell-2", ".stats-grid", .6);
