@@ -3,23 +3,32 @@
     top: 0;
     width: 100%;
     transition: background-color 0.3s ease;
+    background-color: transparent;
+  }
+  
+.header .header-container{
     transition: padding-top 0.3s ease;
     transition: padding-bottom 0.3s ease;
     padding-top:32px;
     padding-bottom:32px;
-    background-color: transparent;
-  }
+}
+
+.header.transparent .header-container{
+  padding-top:32px;
+    padding-bottom:32px;
+}
+
+.header.solid .header-container{
+    padding-top:15px;
+    padding-bottom:15px;
+}
   
   .header.transparent {
     background-color: transparent;
-    padding-top:32px;
-    padding-bottom:32px;
   }
   
   .header.solid {
     background-color: var(--light-gray); /* Replace with the actual light gray value */
-    padding-top:15px;
-    padding-bottom:15px;
   }
    
   .owl-carousel .owl-stage-outer{
