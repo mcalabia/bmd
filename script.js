@@ -140,7 +140,7 @@ animateElementWithScrollTrigger(".stats-cell-2", ".stats-grid", .6);
 
 animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-block", .3);
 animateElementWithScrollTrigger(".featured-articles-content #featured-1", ".featured-articles-content", .3);
-animateElementWithScrollTrigger(".featured-articles-content #featured-2", ".featured-articles-content", .3);
+animateElementWithScrollTrigger(".featured-articles-content #featured-2", ".featured-articles-content", .6);
 
 animateElementWithScrollTrigger(".footer-header-cta-block", ".footer-header-cta-block", .3);
 animateElementWithScrollTrigger(".featured-blog-title-description", ".featured-blog-title-description", .3);
