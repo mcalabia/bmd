@@ -122,7 +122,12 @@ if(elementdata){
 initAnimations();
 animateElementWithScrollTrigger(".text-3-up-content", ".text-3-up-content", .3);
 
-animateElementWithScrollTrigger(".text-3-up-column", ".text-3-up-column", .3);
+animateElementWithScrollTrigger(".text-3-card-1", ".text-3-up-column", .3);
+animateElementWithScrollTrigger(".text-3-card-2", ".text-3-up-column", .6);
+animateElementWithScrollTrigger(".text-3-card-3", ".text-3-up-column", .9);
+
+animateElementWithScrollTrigger(".horizontal", ".text-3-up-column", .6);
+
 animateElementWithScrollTrigger(".text-page-blocks-content", ".text-page-blocks-content", .3);
 animateElementWithScrollTrigger(".text-page-blocks-cards-first-row", ".text-page-blocks-cards-first-row", .3);
 animateElementWithScrollTrigger(".text-page-blocks-cards-second-row", ".text-page-blocks-cards-second-row", .3);
