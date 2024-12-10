@@ -135,8 +135,9 @@ animateElementWithScrollTrigger(".tpb-card-2", ".text-page-blocks-cards-first-ro
 animateElementWithScrollTrigger(".tpb-card-3", ".text-page-blocks-cards-first-row", .9);
 animateElementWithScrollTrigger(".tpb-card-4", ".text-page-blocks-cards-first-row", .12);
 
+animateElementWithScrollTrigger(".stats-cell-1", ".stats-grid", .3);
+animateElementWithScrollTrigger(".stats-cell-2", ".stats-grid", .6);
 
-animateElementWithScrollTrigger(".stats-grid", ".stats-grid", .3);
 animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-title", .3);
 animateElementWithScrollTrigger(".featured-articles-content", ".featured-articles-content", .3);
 animateElementWithScrollTrigger(".footer-header-cta-block", ".footer-header-cta-block", .3);
