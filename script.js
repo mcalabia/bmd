@@ -138,7 +138,7 @@ animateElementWithScrollTrigger(".tpb-card-4", ".text-page-blocks-cards-containe
 animateElementWithScrollTrigger(".stats-cell-1", ".stats-grid", .3);
 animateElementWithScrollTrigger(".stats-cell-2", ".stats-grid", .6);
 
-animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-block", .3);
+animateElementWithScrollTrigger(".featured-articles-title-block", ".featured-articles-block", .3);
 animateElementWithScrollTrigger(".featured-articles-content #featured-1", ".featured-articles-content", .3);
 animateElementWithScrollTrigger(".featured-articles-content #featured-2", ".featured-articles-content", .6);
 
