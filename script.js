@@ -69,16 +69,16 @@ function initAnimations() {
   }
 
   // Hero container animation
-  const hero_container = document.querySelector(".hero-content");
-  if(hero_container){
-  gsap.fromTo(hero_container, 
-      { opacity: 0 }, 
-      { opacity: 1, duration: 1, ease: "power2.out" }
-  );
-}
+//   const hero_container = document.querySelector(".hero-content");
+//   if(hero_container){
+//   gsap.fromTo(hero_container, 
+//       { opacity: 0 }, 
+//       { opacity: 1, duration: 1, ease: "power2.out" }
+//   );
+// }
 
   // Slide up the hero description block
-  const hero_description_block = document.querySelector(".hero-description");
+  const hero_description_block = document.querySelector(".hero-content");
   if(hero_description_block){
   gsap.fromTo(hero_description_block, 
       { y: 100, opacity: 0 }, 
