@@ -69,7 +69,7 @@ function initAnimations() {
   }
 
   // Hero container animation
-  const hero_container = document.querySelector(".hero-block");
+  const hero_container = document.querySelector(".hero-content");
   if(hero_container){
   gsap.fromTo(hero_container, 
       { opacity: 0 }, 
