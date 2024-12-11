@@ -62,6 +62,6 @@
   bottom: -20px;
   right: 0;
 }
-.is-active-accordion .ftvt-tab-title{
+.is-active-accordion .ftvt-tab-title-mobile{
   color: var(--darkk)!important;
 }
