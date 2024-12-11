@@ -64,7 +64,7 @@ function initAnimations() {
   if(navbar){
   gsap.fromTo(navbar, 
       { y: -100 }, 
-      { duration: 1, y: 0, ease: "power2.out" }
+      { duration: 1, y: 0, delay: 0.3,ease: "power2.out" }
   );
   }
 
