@@ -82,7 +82,7 @@ function initAnimations() {
   if(hero_description_block){
   gsap.fromTo(hero_description_block, 
       { y: 100, opacity: 0 }, 
-      { y: 0, opacity: 1, duration: 1, delay: 0.3, ease: "power2.out" }
+      { y: 0, opacity: 1, duration: 1, delay: 0, ease: "power2.out" }
   );
 }
 
