@@ -65,3 +65,23 @@
 .is-active-accordion .ftvt-tab-title-mobile{
   color: var(--darkk)!important;
 }
+
+@media (max-width: 991px) {
+  .testimonial-owl-carousel .owl-dots {
+    width: calc(100% - 250px) !important;
+  }
+}
+@media (max-width: 767px) {
+  .testimonial-owl-carousel .owl-dots {
+    width: 100% !important;
+    margin-top: 33px !important;
+  }
+  .testimonial-owl-carousel .owl-nav {
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+  }
+}
+@media (max-width: 479px) {
+  
+}
