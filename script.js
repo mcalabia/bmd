@@ -179,6 +179,7 @@ animateElementWithScrollTrigger(".cta-centered-video-container-block", ".cta-cen
 animateElementWithScrollTrigger(".related-pages-title-block", ".related-pages-title-block", .3);
 animateElementWithScrollTrigger(".text-page-blocks-card", ".related-pages-block", .3);
 
+animateElementWithScrollTrigger(".featured-articles-block", ".featured-articles-block", .3);
 animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-card-1", .3);
 animateElementWithScrollTrigger(".text-page-blocks-card-2", ".text-page-blocks-card-2", .6);
 animateElementWithScrollTrigger(".text-page-blocks-card-3", ".text-page-blocks-card-3", .9);
