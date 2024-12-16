@@ -154,5 +154,23 @@ animateElementWithScrollTrigger(".featured-blog-stack", ".featured-blog-stack", 
 animateElementWithScrollTrigger(".articles-block", ".articles-block", .3);
 animateElementWithScrollTrigger(".auxilary-block", ".auxilary-block", .3);
 animateElementWithScrollTrigger(".footer-content", ".footer-content", .3);
+
+animateElementWithScrollTrigger(".service-list-title-and-description-block", ".service-list-title-and-description-block", .3);
+animateElementWithScrollTrigger(".service-list-tabs", ".service-list-tabs", .3);
+animateElementWithScrollTrigger(".testimonial-block", ".testimonial-block", .3);
+animateElementWithScrollTrigger(".testimonial-owl-carousel", ".testimonial-owl-carousel", .3);
+animateElementWithScrollTrigger(".contact-data-block", ".contact-data-block", .3);
+animateElementWithScrollTrigger(".contact-form-container", ".contact-form-container", .6);
+animateElementWithScrollTrigger(".about-title-and-description", ".about-title-and-description", .3);
+animateElementWithScrollTrigger(".fa-title-and-description", ".fa-title-and-description", .3);
+animateElementWithScrollTrigger(".fa-accordion-cell", ".fa-accordion-cell", .6);
+animateElementWithScrollTrigger(".team-title-block", ".team-title-block", .3);
+animateElementWithScrollTrigger(".team-grid", ".team-grid", .3);
+animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-title", .3);
+
+animateElementWithScrollTrigger(".footer", ".footer", .3);
+animateElementWithScrollTrigger(".footer", ".footer", .3);
+
+
   });
   
