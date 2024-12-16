@@ -168,7 +168,7 @@ animateElementWithScrollTrigger(".team-title-block", ".team-title-block", .3);
 animateElementWithScrollTrigger(".team-grid", ".team-grid", .3);
 
 animateElementWithScrollTrigger(".htcv-block", ".htcv-block", .3);
-animateElementWithScrollTrigger(".htcv-image-container", ".htcv-image-container", .3);
+animateElementWithScrollTrigger(".htcv-image-container", ".htcv-image-container", .6);
 animateElementWithScrollTrigger(".ftvt-blocks", ".ftvt-blocks", .3);
 animateElementWithScrollTrigger(".tabs-menu-3", ".tabs-menu-3", .3);
 animateElementWithScrollTrigger(".ftvt-tab-content", ".ftvt-tab-content", .3);
@@ -183,7 +183,7 @@ animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-c
 animateElementWithScrollTrigger(".text-page-blocks-card-2", ".text-page-blocks-card-2", .6);
 animateElementWithScrollTrigger(".text-page-blocks-card-3", ".text-page-blocks-card-3", .9);
 animateElementWithScrollTrigger(".blog-block", ".blog-block", .3);
-animateElementWithScrollTrigger(".blog-featured-image", ".blog-featured-image", .3);
+animateElementWithScrollTrigger(".blog-featured-image", ".blog-featured-image", .6);
 animateElementWithScrollTrigger(".blog-content", ".blog-content", .3);
 
 
