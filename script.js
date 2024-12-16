@@ -168,8 +168,24 @@ animateElementWithScrollTrigger(".team-title-block", ".team-title-block", .3);
 animateElementWithScrollTrigger(".team-grid", ".team-grid", .3);
 animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-title", .3);
 
-animateElementWithScrollTrigger(".footer", ".footer", .3);
-animateElementWithScrollTrigger(".footer", ".footer", .3);
+animateElementWithScrollTrigger(".htcv-block", ".htcv-block", .3);
+animateElementWithScrollTrigger(".htcv-image-container", ".htcv-image-container", .3);
+animateElementWithScrollTrigger(".ftvt-blocks", ".ftvt-blocks", .3);
+animateElementWithScrollTrigger(".tabs-menu-3", ".tabs-menu-3", .3);
+animateElementWithScrollTrigger(".ftvt-tab-content", ".ftvt-tab-content", .3);
+animateElementWithScrollTrigger(".two-up-container-list-title-block", ".two-up-container-list-title-block", .3);
+animateElementWithScrollTrigger(".two-up-container-list-card-active", ".two-up-container-list-card-active", .3);
+animateElementWithScrollTrigger(".two-up-container-list-card", ".two-up-container-list-card", .3);
+animateElementWithScrollTrigger(".cta-centered-video-container-block", ".cta-centered-video-container-block", .3);
+animateElementWithScrollTrigger(".related-pages-title-block", ".related-pages-title-block", .3);
+animateElementWithScrollTrigger(".text-page-blocks-card", ".related-pages-block", .3);
+
+animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-card-1", .3);
+animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-card-1", .6);
+animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-card-1", .9);
+animateElementWithScrollTrigger(".blog-block", ".blog-block", .3);
+animateElementWithScrollTrigger(".blog-featured-image", ".blog-featured-image", .3);
+animateElementWithScrollTrigger(".blog-content", ".blog-content", .3);
 
 
   });
