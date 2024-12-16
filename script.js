@@ -87,6 +87,8 @@ function initAnimations() {
       );
     }
   }
+  heroDescriptionAnimation(".hero-content");
+  heroDescriptionAnimation(".htv-block");
 
   // Logo carousel container animation
   const logo_carousel_container = document.querySelector(".logos-container");
@@ -123,8 +125,7 @@ if(elementdata){
 
 initAnimations();
 
-heroDescriptionAnimation(".hero-content");
-heroDescriptionAnimation(".htv-block");
+
 animateElementWithScrollTrigger(".text-3-up-content", ".text-3-up-content", .3);
 
 animateElementWithScrollTrigger(".text-3-card-1", ".text-3-up-column", .3);
