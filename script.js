@@ -144,7 +144,7 @@ animateElementWithScrollTrigger(".tpb-card-4", ".text-page-blocks-cards-containe
 animateElementWithScrollTrigger(".stats-cell-1", ".stats-grid", .3);
 animateElementWithScrollTrigger(".stats-cell-2", ".stats-grid", .6);
 
-animateElementWithScrollTrigger(".featured-articles-title-block", ".featured-articles-block", .3);
+animateElementWithScrollTrigger(".featured-articles-title-block", ".featured-articles-title-block", .3);
 animateElementWithScrollTrigger(".featured-articles-content #featured-1", ".featured-articles-content", .3);
 animateElementWithScrollTrigger(".featured-articles-content #featured-2", ".featured-articles-content", .6);
 
@@ -166,7 +166,6 @@ animateElementWithScrollTrigger(".fa-title-and-description", ".fa-title-and-desc
 animateElementWithScrollTrigger(".fa-accordion-cell", ".fa-accordion-cell", .6);
 animateElementWithScrollTrigger(".team-title-block", ".team-title-block", .3);
 animateElementWithScrollTrigger(".team-grid", ".team-grid", .3);
-animateElementWithScrollTrigger(".featured-articles-title", ".featured-articles-title", .3);
 
 animateElementWithScrollTrigger(".htcv-block", ".htcv-block", .3);
 animateElementWithScrollTrigger(".htcv-image-container", ".htcv-image-container", .3);
@@ -181,8 +180,8 @@ animateElementWithScrollTrigger(".related-pages-title-block", ".related-pages-ti
 animateElementWithScrollTrigger(".text-page-blocks-card", ".related-pages-block", .3);
 
 animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-card-1", .3);
-animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-card-1", .6);
-animateElementWithScrollTrigger(".text-page-blocks-card-1", ".text-page-blocks-card-1", .9);
+animateElementWithScrollTrigger(".text-page-blocks-card-2", ".text-page-blocks-card-2", .6);
+animateElementWithScrollTrigger(".text-page-blocks-card-3", ".text-page-blocks-card-3", .9);
 animateElementWithScrollTrigger(".blog-block", ".blog-block", .3);
 animateElementWithScrollTrigger(".blog-featured-image", ".blog-featured-image", .3);
 animateElementWithScrollTrigger(".blog-content", ".blog-content", .3);
