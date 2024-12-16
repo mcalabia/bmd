@@ -78,13 +78,15 @@ function initAnimations() {
 // }
 
   // Slide up the hero description block
-  const hero_description_block = document.querySelector(".hero-content");
-  if(hero_description_block){
-  gsap.fromTo(hero_description_block, 
-      { y: 100, opacity: 0 }, 
-      { y: 0, opacity: 1, duration: 1, delay: 0, ease: "power2.out" }
-  );
-}
+  function heroDescriptionAnimation(cssName){
+    const hero_description_block = document.querySelector(cssName);
+    if(hero_description_block){
+      gsap.fromTo(hero_description_block, 
+          { y: 100, opacity: 0 }, 
+          { y: 0, opacity: 1, duration: 1, delay: 0, ease: "power2.out" }
+      );
+    }
+  }
 
   // Logo carousel container animation
   const logo_carousel_container = document.querySelector(".logos-container");
@@ -120,6 +122,9 @@ if(elementdata){
 }
 
 initAnimations();
+
+heroDescriptionAnimation(".hero-content");
+heroDescriptionAnimation(".htv-block");
 animateElementWithScrollTrigger(".text-3-up-content", ".text-3-up-content", .3);
 
 animateElementWithScrollTrigger(".text-3-card-1", ".text-3-up-column", .3);
