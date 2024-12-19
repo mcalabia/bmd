@@ -66,6 +66,11 @@
   color: var(--darkk)!important;
 }
 
+.owl-dots {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
 @media (max-width: 991px) {
   .testimonial-owl-carousel .owl-dots {
     width: calc(100% - 250px) !important;
